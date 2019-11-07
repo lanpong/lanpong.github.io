@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://lanpong.com/"/>
-  <updated>2018-12-30T13:14:54.211Z</updated>
+  <updated>2019-11-07T12:02:59.800Z</updated>
   <id>https://lanpong.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2019 个人总结</title>
+    <link href="https://lanpong.com/2019/2019/"/>
+    <id>https://lanpong.com/2019/2019/</id>
+    <published>2019-11-01T10:51:46.000Z</published>
+    <updated>2019-11-07T12:02:59.800Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>十二月写</p></blockquote><a id="more"></a><h2 id="编程"><a href="#编程" class="headerlink" title="编程"></a>编程</h2><h2 id="学习"><a href="#学习" class="headerlink" title="学习"></a>学习</h2>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;十二月写&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>2018 个人总结</title>
