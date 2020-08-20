@@ -1,8 +1,8 @@
-importScripts("/watermark/precache-manifest.946c2dc66ef1b68a7c5deff995da3068.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
+importScripts("/precache-manifest.5182328afa96013e07d68f7bc1db8e39.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 // 设置相应缓存的名字的前缀和后缀
 workbox.core.setCacheNameDetails({
-  prefix: "browse-exp",
+  prefix: "watermark",
   suffix: "v1.0.0"
 });
 // 让我们的service worker尽快的得到更新和获取页面的控制权
