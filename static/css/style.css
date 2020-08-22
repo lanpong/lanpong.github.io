@@ -1,0 +1,127 @@
+body {
+  background: #ededed;
+  padding: 10%;
+}
+
+html {
+  font-family: sans-serif; 
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.hide {
+  display: inline;
+}
+
+::selection {
+  background: #444;
+  color: #fff;
+}
+::-moz-selection {
+  background: #444;
+  color: #fff;
+}
+
+/* -------------------------------------- Header -------------------------------------- */
+
+.title {
+  width: 100%;
+  float: left;
+  margin: 0px 0px 30px 0px;
+  font-size: 20px;
+  color: #444;
+  line-height: 30px;
+}
+
+.links {
+  width: 100%;
+  font-size: 40px;
+  float: left;
+}
+
+a {
+  background: #fff;
+  float: left;
+  padding: 25px;
+  margin: 0px 20px 20px 0px;
+  -webkit-transition: width .1s, height .1s, background-color .1s, -webkit-transform .1s, color .1s;
+  transition: width .1s, height .1s, background-color .1s, transform .1s, color .1s;
+}
+
+a:hover {
+  color: #fff;
+  background: #222;
+}
+
+.color-one {color: #397FF4;}
+.color-two {color: #30AD51;}
+.color-three {color: #FF7300;}
+.color-four {color: #8129CC;}
+.color-five {color: #EC4335;}
+.color-six {color: #FFAD00;}
+
+.color-one:hover {background: #397FF4;}
+.color-two:hover {background: #30AD51;}
+.color-three:hover {background: #FF7300;}
+.color-four:hover {background: #8129CC;}
+.color-five:hover {background: #EC4335;}
+.color-six:hover {background: #FFAD00;}
+
+
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media (max-width: 640px) {
+
+  body {
+    background: #ededed;
+    padding: 7%;
+  }
+
+  .title {
+    margin: 20px 0px 40px 0px;
+    font-size: 20px;
+    line-height: 0px;
+  }
+
+  .links {
+    font-size: 20px;
+    float: left;
+    margin-bottom: 20px;
+  }
+
+  a {
+    padding: 20px;
+    margin: 0px 10px 10px 0px;
+  }
+
+  .hide {
+    visibility: hidden;
+  }
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+
+}

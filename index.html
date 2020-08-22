@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="./static/icons8-circled-0--filled-50.png" type="image/x-icon">
+  <link rel="stylesheet" href="./static/css/normalize.css">
+  <link rel="stylesheet" href="./static/css/style.css">
+  <title>0x0FFFF</title>
+  <!-- 
+        
+    /\_/\
+   ( o.o )
+    > ^ <
+-->
+</head>
+<body>
+  <div class="title">
+    你好，我是 0X0FFFF，
+    <p class="hide">
+      我是一个前端初学者。
+    </p>
+  </div>
+  <div class="links">
+    <a href="https://0x0ffff.github.io/watermark/" class="color-one" target="_blank">证件照水印</a>
+  </div>
+  <script>
+    function getMultiLine(f) {
+      var lines = f.toString();
+      return lines.substring(lines.indexOf("/*") + 3, lines.lastIndexOf("*/"));
+    }
+    var console_text = function() {
+      /* 
+        /\_/\
+       ( o.o )
+        > ^ <
+
+%c 网页效果 from: http://www.mattkursmark.com/
+      */
+    }
+      console.log(getMultiLine(console_text),'color:black;font-size:14px')
+  </script>
+</body>
+</html>
